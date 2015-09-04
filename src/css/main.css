@@ -1,0 +1,140 @@
+/* main.css */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div, input {
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+body {
+	font: normal 14px "Helvetica Neue", Arial, sans-serif;
+	color: #454553;
+}
+
+.container {
+	max-width: 1140px;
+	width: 92%;
+	margin: 2em auto 0;
+}
+.container:after {
+	content: " ";
+	display: table-cell;
+	clear: both;
+}
+
+#next-call {
+	width: 45%;
+	float: left;
+	vertical-align: bottom;
+	margin-bottom: 1em;
+}
+#add-call, #call-list {
+	width: 50%;
+	margin-left: 50%;
+}
+#call-list {
+	padding: .5em .5em 1em .8em;
+}
+@media screen and (max-width: 980px) {
+	#next-call {
+		width: 100%;
+		float: none;
+	}
+	#add-call, #call-list {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+input[type=text] {
+	font-size: .9em;
+	padding: .1em .3em;
+	height: 24px;
+	border: 1px solid #ccc;
+}
+.input-time {
+	width: 3.6em;
+}
+.input-name {
+	width: 12em;
+}
+.input-phone {
+	width: 11em;
+}
+
+fieldset {
+	border: 1px solid #f3f3f3;
+	padding: .5em .5em 1em .8em;
+}
+legend {
+	font-weight: 300;
+	font-size: .9em;
+	letter-spacing: .02em;
+}
+
+table {
+	width: 100%;
+	margin-top: 1em;
+}
+thead th {
+	padding-bottom: .5em;
+	text-align: left;
+	font-weight: 300;
+	font-size: .9em;
+	letter-spacing: .02em;
+	border-bottom: 1px solid #f3f3f3;
+}
+td {
+	padding: .45em 0 .5em;
+	border-bottom: 1px solid #f3f3f3;
+}
+tfoot th {
+	padding-top: 2em;
+	font-weight: 400;
+}
+
+a, a:hover, a:active, a:visited {
+	color: #08c;
+	text-decoration: none;
+}
+
+.button {
+	text-decoration: none;
+	display: inline-block;
+	height: 18px;
+	vertical-align: bottom;
+	padding: 2px 10px;
+	border: 1px solid #A6D5ED;
+}
+.button.active {
+	color: #fff;
+	background: #08c;
+	border-color: #08c;
+}
+.button + .button {
+	border-left: none;
+}
+.button + .button.active {
+	border-right: none;
+}
+
+.asc:after {
+	content: " \25b2";
+	font-size: .7em;
+	vertical-align: middle;
+}
+.desc:after {
+	vertical-align: middle;
+	font-size: .7em;
+	content: " \25bc";
+}
+
+p {
+	padding: 1em 0 0;
+	color: #EB586F;
+}

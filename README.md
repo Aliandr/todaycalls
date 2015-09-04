@@ -1,15 +1,16 @@
 Today Calls
 ===
+Application for creating list of today calls
 
-# Requirements
+### Requirements
 1. Node.js
 2. npm
 
-# Installation
+### Installation
 `npm install`
 
-# Running
+### Running
 `npm start`
 
-#Building for production
+### Building for production
 `npm run build`

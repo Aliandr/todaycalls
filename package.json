@@ -9,6 +9,7 @@
   },
   "author": "Sergiy Tymoshenko <sergiy.tymoshenko@icloud.com>",
   "license": "ISC",
+  "repository": "https://github.com/freezethrower/todaycalls.git",
   "devDependencies": {
     "browser-sync": "^2.7.1",
     "browserify": "^10.1.0",

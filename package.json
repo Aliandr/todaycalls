@@ -1,6 +1,6 @@
 {
   "name": "todaycalls",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Application for creating list of today calls",
   "main": "gulpfile.js",
   "scripts": {

@@ -21,7 +21,7 @@ var path = {
   ENTRY_POINT: './src/js/app.js'
 };
 
-gulp.task('serve', ['replaceHTML', 'watch'], function(){
+gulp.task('serve', ['replaceHTML', 'replaceCSS', 'watch'], function(){
   sync.init({
     server: './dev'
   });
